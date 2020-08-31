@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      <form class="search" autocomplete="off">
+        <input type="text" name="query" required>
+        <button name="submit" type="submit">Search by type</button>
+      </form>
+      <form class="ingredientsSearch">
+        <input type="text" name="ingredients" >
+        <button name="submit" type="submit">Search by ingredient</button>
+      </form>
+    </div>
+    <div>
+      <h2 class="list">Recipe Finder</h2>
+      <img class="mainImage"src="egg_rolls_46445_16x9.jpg" alt="egg rolls">
+    </div>
+    <div class="recipes"></div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
